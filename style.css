@@ -1,0 +1,39 @@
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.left-container{
+background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+background-size: 400px 100%;
+margin: 0;
+}
+
+.right-container{
+    
+}
+
+.odin-image{
+    width: 50%;
+}
+
+.odin-picture-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 6, 6, 0.5);
+    margin-top: 100px;
+}
+
+.odin-picture-text{
+    color: white;
+    font-size: 30px;
+}
