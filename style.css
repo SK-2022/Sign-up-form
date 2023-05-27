@@ -37,3 +37,16 @@ margin: 0;
     color: white;
     font-size: 30px;
 }
+
+.top-text{
+    background-color: #D3D3D3;
+    padding: 30px 200px 10px 60px;
+}
+
+.sign-up-form{
+   padding : 0px 200px 0px 60px;
+   background-color: aqua;
+}
+
+
+
