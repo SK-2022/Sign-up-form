@@ -22,7 +22,12 @@ margin: 0;
 }
 
 .right-container{
+}
 
+.left,
+.right {
+  display: flex;
+  flex-direction: column;  
 }
 
 .odin-image{
@@ -64,7 +69,10 @@ margin: 0;
     flex-wrap: wrap;
 }
 
-.form-row input[type='text'] {
+.form-row input[type='text'],
+.form-row input[type='email'],
+.form-row input[type='number'],
+.form-row input[type='password'] {
     background-color: #FFFFFF;
     border: 1px solid #D6D9DC;
     border-radius: 3px;
@@ -76,3 +84,26 @@ margin: 0;
 .form-row label {
     margin-bottom: 5px;
 }
+
+@media only screen and (min-width: 700px) {
+    .form-row {
+        flex-direction: row;
+        align-items: flex-start; /*to avoid stretching*/
+        margin-bottom: 20px;
+    }
+    .form-row input[type='text'],
+    .form-row input[type='email'],
+    .form-row input[type='number'],
+    .form-row input[type='password'] {
+        width: 250px;
+        height: initial;
+    }
+    .form-row label {
+        text-align: right;
+        width: 120px;
+        margin-top: 7px;
+        padding-right: 20px;
+    }
+}
+
+
