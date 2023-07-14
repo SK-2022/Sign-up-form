@@ -21,7 +21,9 @@ background-size: 400px 100%;
 margin: 0;
 }
 
-.right-container{
+.right-container-child{
+ display: flex;
+ flex-direction: column;
 }
 
 .left,
@@ -48,17 +50,21 @@ margin: 0;
 }
 
 .top{
-    background-color: #D3D3D3;
+    background-color: #F9FAFB;
     padding: 30px 200px 10px 60px;
+    /* font-size: 30px; */
 }
 
 .sign-up-form{
+   display: flex;
+   gap: 70px;
    padding : 0px 200px 0px 60px;
-   background-color: aqua;
+   background-color:#FFFFFF;
+   box-shadow: 0px 4px 6px -4px rgba(6, 6, 6, 0.5);
 }
 
 .bottom-right-container{
-    background-color: red;
+    background-color: #F9FAFB;
 }
 
 .form-row{
@@ -87,7 +93,6 @@ margin: 0;
 
 @media only screen and (min-width: 700px) {
     .form-row {
-        flex-direction: row;
         align-items: flex-start; /*to avoid stretching*/
         margin-bottom: 20px;
     }
@@ -99,8 +104,6 @@ margin: 0;
         height: initial;
     }
     .form-row label {
-        text-align: right;
-        width: 120px;
         margin-top: 7px;
         padding-right: 20px;
     }
