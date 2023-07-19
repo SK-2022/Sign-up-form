@@ -22,6 +22,7 @@ margin: 0;
 }
 
 .right-container{
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
 }
@@ -29,6 +30,8 @@ margin: 0;
  display: flex;
  flex-direction: column;
  box-shadow: 0px 4px 6px -4px rgba(6, 6, 6, 0.5);  
+=======
+>>>>>>> parent of dfa17b0 (Update sign up form input field spacing and colors of sections)
 }
 
 .left,
@@ -55,15 +58,13 @@ margin: 0;
 }
 
 .top{
-    background-color: #F9FAFB;
+    background-color: #D3D3D3;
     padding: 30px 200px 10px 60px;
-    /* font-size: 30px; */
 }
 
 .sign-up-form{
-   display: flex;
-   gap: 70px;
    padding : 0px 200px 0px 60px;
+<<<<<<< HEAD
    background-color:#FFFFFF;
 }
 
@@ -71,6 +72,13 @@ margin: 0;
     flex-grow: 1;
     background-color: #F9FAFB;
     padding: 20px 60px;
+=======
+   background-color: aqua;
+}
+
+.bottom-right-container{
+    background-color: red;
+>>>>>>> parent of dfa17b0 (Update sign up form input field spacing and colors of sections)
 }
 
 .form-row{
@@ -99,6 +107,7 @@ margin: 0;
 
 @media only screen and (min-width: 700px) {
     .form-row {
+        flex-direction: row;
         align-items: flex-start; /*to avoid stretching*/
         margin-bottom: 20px;
     }
@@ -110,6 +119,8 @@ margin: 0;
         height: initial;
     }
     .form-row label {
+        text-align: right;
+        width: 120px;
         margin-top: 7px;
         padding-right: 20px;
     }
