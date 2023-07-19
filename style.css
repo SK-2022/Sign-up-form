@@ -52,12 +52,13 @@ margin: 0;
 .odin-picture-text{
     color: white;
     font-size: 30px;
+    font-family: Skranji, Arial, Helvetica, sans-serif;
 }
 
 .top{
     background-color: #F9FAFB;
     padding: 30px 200px 10px 60px;
-    /* font-size: 30px; */
+    font-size: 20px;
 }
 
 .sign-up-form{
@@ -132,4 +133,9 @@ button {
 .log-in-button{
     color: #596C48;
     text-decoration: none;
+}
+
+.text-above-form{
+    margin: 10px 0px 10px 60px;
+    font-size: 20px;
 }
